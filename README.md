@@ -1,6 +1,8 @@
 # Kaggle competition
 House Prices: Advanced Regression Techniques
 
++ [*Kaggle competition*](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/submissions?sortBy=date&group=all&page=1)
+
 ![House Prices: Advanced Regression Techniques](https://kaggle2.blob.core.windows.net/competitions/kaggle/5407/media/housesbanner.png)
 
 *With 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa, this competition challenges us to predict the final price of each home*.
@@ -19,14 +21,15 @@ Our job is to predict the sales price for each house. For each Id in the test se
 We assigned the train dataset to X variable and the SalePrice column to y variable.
 
 Computing each time an arithmetic mean between the models we obtained the following results.
+
 + **Model selection**:
 
-GB $\rightarrow$ (loss = â€œhuberâ€, learning_rate = .05, n_estimators = 5000, max_depth = 1) Lasso â€”> (alpha = 0.000476269)
+**GB** $\rightarrow$ (loss = Ô*huber*Õ, learning_rate = .05, n_estimators = 5000, max_depth = 1) 
 
-Lasso $\rightarrow$ (alpha = 0.000476269)
+**Lasso** $\rightarrow$ (alpha = 0.000476269)
 
-Ridge $\rightarrow$ (alpha = 10.971561867)
+**Ridge** $\rightarrow$ (alpha = 10.971561867)
 
-LGBM $\rightarrow$ (â€˜regressionâ€™,num_leaves = 4, learning_rate =0.03, n_estimators=30000, max_bin = 50) 
+**LGBM** $\rightarrow$ (Ô*regression*Õânum_leaves = 4, learning_rate =0.03,n_estimators=30000, max_bin = 50) 
 
 *Score: 0.11627*

@@ -1,7 +1,7 @@
 # Kaggle competition
 House Prices: Advanced Regression Techniques
 
-![House Prices](https://kaggle2.blob.core.windows.net/competitions/kaggle/5407/logos/front_page.png)
+![House Prices: Advanced Regression Techniques](https://kaggle2.blob.core.windows.net/competitions/kaggle/5407/media/housesbanner.png)
 
 *With 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa, this competition challenges us to predict the final price of each home*.
 

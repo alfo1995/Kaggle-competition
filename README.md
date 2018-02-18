@@ -24,12 +24,12 @@ Computing each time an arithmetic mean between the models we obtained the follow
 
 + **Model selection**:
 
-**GB** ==> (loss = *huber*, learning_rate = .05, n_estimators = 5000, max_depth = 1) 
+**GB** —> (loss = *huber*, learning_rate = .05, n_estimators = 5000, max_depth = 1) 
 
-**Lasso** ==> (alpha = 0.000476269)
+**Lasso** —> (alpha = 0.000476269)
 
-**Ridge** ==> (alpha = 10.971561867)
+**Ridge** —> (alpha = 10.971561867)
 
-**LGBM** ==> (*regression*�num_leaves = 4, learning_rate =0.03,n_estimators=30000, max_bin = 50) 
+**LGBM** —> (*regression*‚num_leaves = 4, learning_rate =0.03,n_estimators=30000, max_bin = 50) 
 
 *Score: 0.11627*

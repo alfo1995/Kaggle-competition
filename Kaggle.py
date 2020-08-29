@@ -6,6 +6,7 @@
 #importing packages
 import pandas as pd
 import numpy as np
+import time
 import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn import metrics
@@ -13,7 +14,6 @@ from sklearn.model_selection import train_test_split
 from scipy.stats import norm
 get_ipython().magic('matplotlib inline')
 
-import time
 start_time = time.time()
 
 #import train and test
